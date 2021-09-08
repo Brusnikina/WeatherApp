@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Weather</string>
+    <string name="search">Поиск</string>
+    <string name="default_title">Погода</string>
+    <string name="default_location">Ваше местоположение</string>
+    <string name="forecast_for_Moscow">Показан прогноз погоды в Москве. Если Вы не в Москве, укажите Ваш город</string>
+    <string name="city_not_found">Город не найден</string>
+    <string name="no_internet_error">Произошла ошибка. Проверьте Интернет-соединение</string>
+    <string name="data_loading_error">При загрузке данных произошла ошибка</string>
+    <string name="successful_data_update">Данные успешно обновлены</string>
+    <string name="icon_frefix">weather_</string>
+    <string name="drawable_type">drawable</string>
+    <string name="pressure_description">%.0f мм рт.ст.</string>
+    <string name="humidity_description">%d %%</string>
+    <string name="wind_description">%.1f м/с</string>
+    <string name="tempriture_description">%+.0f°</string>
+    <string name="feels_like_description">ощущается как %+.0f°</string>
+
+
+</resources>

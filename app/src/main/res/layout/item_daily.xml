@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:weightSum="8"
+    android:layout_marginBottom="2dp">
+
+    <TextView
+        android:id="@+id/tv_daily_date"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="4"
+        android:layout_gravity="center_vertical"
+        android:textSize="16sp"
+        android:text=""
+        tools:text="10 september"/>
+
+    <ImageView
+        android:id="@+id/iv_daily_weather"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:layout_gravity="center_vertical"
+        android:src="@android:drawable/btn_plus"/>
+
+    <TextView
+        android:id="@+id/tv_daily_day_temp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="center_vertical"
+        android:textSize="18sp"
+        android:text=""
+        tools:text="+15"/>
+
+    <TextView
+        android:id="@+id/tv_daily_night_temp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="center_vertical"
+        android:textSize="12sp"
+        android:text=""
+        tools:text="+6"/>
+
+</LinearLayout>
