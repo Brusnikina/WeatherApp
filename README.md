@@ -3,6 +3,9 @@
 
 ### Скриншоты
 ![screenshot](/readme_assets/Screenshot_1.png "Запрашиваем разрешение")
+![screenshot](/readme_assets/Screenshot_2.png "Погода в Москве")
+![screenshot](/readme_assets/Screenshot_3.png "Погода в Ростове-На-Дону")
+![screenshot](/readme_assets/Screenshot_4.png "Погода в Нью-Йорке")
 ### Стек технологий: 
 - MVVM
 - Retrofit
